@@ -1,0 +1,14 @@
+ul{
+    background-color: skyblue;
+}
+li{
+    display: inline;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: red;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
