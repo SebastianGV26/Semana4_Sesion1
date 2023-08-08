@@ -1,22 +1,85 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+*,
+*::before,
+*::after{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
 html{
     font-size: 15px;
+}
+header{
+    padding-bottom: 1rem;
+}
+h1{
+    display: inline;
+    color: darkgreen;
+    font-size: 2.5rem;
+    border: 5px double gray;
 }
 ul{
     background-color: #2f4cf0;
     border-radius: 15px;
 }
 li{
-    display: inline;
     list-style: none;
-    align-items: center;
-    justify-content: center;
 }
 a{
     text-decoration: none;
     color: #ffffff;
-    font-size: 2rem;
+    font-size: 1rem;
     font-family: 'Poppins', sans-serif;
+    font-weight: 300;;
+}
+
+.pregunta1 p{
+    display: inline;
+    color: darkred;
     font-weight: 700;
-    margin-inline: 2rem;
+}
+.pregunta2 p{
+    color: #ffffff;
+    font-weight: 700;
+}
+.pregunta3 p{
+    display: inline;
+    color: darkgreen;
+    font-weight: 700;
+}
+.pregunta4 p{
+    display: block;
+    color: darkslategrey;
+    font-weight: 700;
+}
+.pregunta5 .conShort{
+    color: red;
+    border: 1px solid black;
+    padding: 20px 25px 20px 25px;
+    margin: 30px 20px 30px 20px;
+}
+.pregunta5 .sinShort{
+    color: blue;
+    border: 1px solid black;
+    padding-top: 20px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+.caja{
+    width: 150px;
+    height: 150px;
+}
+.caja1{
+    background-color: #2f4cf0;
+    border: 1px solid black;
+}
+.caja2{
+    margin-top: -5rem;
+    background-color: #ffffff;
+    border: 1px solid black;
 }
